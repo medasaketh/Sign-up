@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <img class="background-image" src="./backgroung.webp" alt="background-pic">
+            <div class="logopic">
+                <img class="logo-image" src="./odin-logo.png" alt="logo image">
+                <p class="logoname"><b>Odin</b></p>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <div class="Heading">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                <p>Sign up <em>Now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <div class="Form">
+                <h2>Let's do this!</h2>
+                <form action="#" method="post">
+                    <div class="form-container">
+                        <div class="input">
+                            <label for="Firstname">FIRST NAME</label>
+                            <input type="text" id="Firstname" required>
+                        </div>
+            
+                        <div class="input">
+                            <label for="Lastname">LAST NAME</label>
+                            <input type="text" id="Lastname" >
+                        </div>
+            
+                        <div class="input">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" placeholder="abc@example.com" required>
+                        </div>
+            
+                        <div class="input">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="text" id="phone" maxlength="10" placeholder="99xxxxxxxx">
+                        </div>
+            
+                        <div class="input">
+                            <label for="password"  title="Required: At least 8 characters, 1 Upper, 1 Lower, 1 Number">PASSWORD</label>
+                            <input type="password" id="password" required >
+                        </div>
+                        
+                        <div class="input">
+                            <label for="confirm-pw">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-pw" required>
+                        </div>
+                    </div>
+            
+                </form>
+            </div>
+            <div class="submit-section">
+                <div class="btn">
+                    <button>Create Account</button>
+                    <p>Already have an account? <a href="#"><b>Log In</b></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
